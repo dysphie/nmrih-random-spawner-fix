@@ -1,0 +1,39 @@
+"Games"
+{
+	"nmrih"
+	{
+		"Signatures"
+		{
+			"CRandom_Spawner::NormalizeValues"
+			{
+				"library"		"server"
+				"windows"		"\x55\x8B\xEC\x51\x33\xD2\x8B\xC1\x56\x57\x89\x45\xFC\x33\xF6\x33\xFF"
+                "linux"         "@_ZN15CRandom_Spawner15NormalizeValuesEv"
+			}
+		}
+
+        "Offsets"
+        {
+            "CRandom_Spawner::m_iSpawnWeights"
+            {
+                "windows"   "896"
+                "linux"     "920"
+            }
+        }
+
+		"Functions"
+        {
+            "CRandom_Spawner::NormalizeValues"
+            {
+                "signature"  "CRandom_Spawner::NormalizeValues"
+                "callconv"  "thiscall"
+                "return"  "void"
+                "this"  "entity"
+                "arguments"
+                {
+
+                }
+            }
+        }
+	}
+}
