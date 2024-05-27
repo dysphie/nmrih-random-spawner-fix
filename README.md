@@ -1,3 +1,5 @@
+> ⚠️ This is no longer needed as of NMRiH 1.13.4-hotfix
+
 # [NMRiH] Random Spawner Fix
 
 Fixes random spawners always creating the same loot in NMRiH 1.13.4
